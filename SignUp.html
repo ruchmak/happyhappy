@@ -5,60 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
     <title>SignUp</title>
 </head>
 
 <body>
 
-   
+ <div class="container">  
     <h1>Sign Up Page</h1>
-    <a href="./index.html">Home</a> |
-    <a href="./SignUp.html">Sign Up Page</a> |
-    <a href="./Blog.html">Blog</a> |
-    <a href="./About.html">About Us</a>
+    <header>
+        <a href="./index.html" class="menu">Home</a> |
+        <a href="./SignUp.html" class="menu">Sign Up Page</a> |
+        <a href="./Blog.html" class="menu">Blog</a> |
+        <a href="./About.html"class="menu">About Us</a> 
+        </header>
     
     
-    <br>
-    <br>
-    <form>
-        <label>Title</label>
-       <input type="radio" name="radio"> Mr
-       <input type="radio" name="radio"> Mrs
-       <input type="radio" name="radio"> Miss
     <br>
     <br>
 
-        <label>First Name</label>
-        <input type="text" name="text" value="first_name">
-    <br>
-    <br>
+        <table>
+                
+                <tr>
+                        <td>Title</td>
     
-        <label>Last Name</label>
-        <input type="text" name="text" value="last_name">
-    <br>
-    <br>
-         <label>Email</label>
-         <input type="email" name="email" value="email">
-    <br>
-    <br>
-        <label>Phone Number</label>
-        <input type="text" name="text" value="phone">
-    <br>
-    <br>
-        <label>Password</label>
-        <input type="password" name="password" value="password">
-    <br>
-    <br>
-        <label>Confirm Your Password</label>
-        <input type="password" name="password" value="password">
-    <br>
-    <br>
-        
-        <label>Gender</label>
-        <select name="Gender">
-            <option value="Man">Man</option>
-            <option value="Woman">Woman</option>
-          </select>
+                        <td><input type="radio" name="radio"> Mr
+                            <input type="radio" name="radio"> Mrs
+                            <input type="radio" name="radio"> Miss</td>
+                    </tr>
+                    <tr>
+                            <td>First Name</td>
+                            <td><input type="text" name="text" placeholder="first_name"></td>
+                        </tr>
+                        <tr>
+                                <td>Last Name</td>
+                                <td><input type="text" name="text" placeholder="last_name"></td>
+                            </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="email" name="email" placeholder="email"></td>
+                        </tr>            
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><select name="Gender">
+                            <option value="Man">Man</option>
+                            <option value="Woman">Woman</option>
+                          </select></td>
+                </tr>
+                
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="text" name="text" placeholder="phone"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password" placeholder="password"></td>
+                </tr>
+                <tr>
+                        <td>Confirm Password</td>
+                        <td><input type="password" name="password" placeholder="password"></td>
+                    </tr>
+
+   </table>
    <br>
    <br>
         
@@ -69,13 +77,8 @@
         
     <br>
     <br>
-
-    <p>copyright 2018</p>
-
-
-   </form>
-
-
+   <p>copyright 2018</p>
+</div>
 </body>
 
 </html>
